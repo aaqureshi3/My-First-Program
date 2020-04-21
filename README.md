@@ -15,3 +15,10 @@ An integer: must be a players position number. This will replace the 2  empty se
 'b': undo move.
 
 'q': quit game.
+
+## Rationale
+First assignment for CSSE1001 (Introduction to Software Engineering). Aim of the game is to get all players sitting with their respective teammates (Team A and Team T). End state should be either `TTTTTAAAAA__` OR `AAAAATTTTT__` (the 2 underscores can be to the left of the row of teams; shown on the right in the examples). 
+
+### How To Play
+1. Enter integer **n** (number of players on each team). This will print a string of **n** A's, **n** T's and 2 undescores. 
+
